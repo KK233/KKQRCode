@@ -82,7 +82,6 @@
                                        rect.size.height / kScreenHeight,
                                        rect.size.width / kScreenWidth
                                        );
-    NSLog(@"%@", NSStringFromCGRect(rectOFinterest));
     captureView.output.rectOfInterest = rectOFinterest;
     
     //session
