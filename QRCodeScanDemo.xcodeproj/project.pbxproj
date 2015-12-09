@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		6376CE911C1142E600395032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376CE901C1142E600395032 /* main.m */; };
 		6376CE941C1142E600395032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376CE931C1142E600395032 /* AppDelegate.m */; };
-		6376CE971C1142E600395032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376CE961C1142E600395032 /* ViewController.m */; };
 		6376CE9A1C1142E600395032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376CE981C1142E600395032 /* Main.storyboard */; };
 		6376CE9C1C1142E600395032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6376CE9B1C1142E600395032 /* Assets.xcassets */; };
 		6376CE9F1C1142E600395032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6376CE9D1C1142E600395032 /* LaunchScreen.storyboard */; };
 		6376CEAA1C1142E600395032 /* QRCodeScanDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376CEA91C1142E600395032 /* QRCodeScanDemoTests.m */; };
 		6376CEB51C1142E600395032 /* QRCodeScanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6376CEB41C1142E600395032 /* QRCodeScanDemoUITests.m */; };
+		63F20D341C182B58003F85D2 /* KKBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D2B1C182B58003F85D2 /* KKBackgroundView.m */; };
+		63F20D351C182B58003F85D2 /* KKQRCodeCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D2D1C182B58003F85D2 /* KKQRCodeCaptureView.m */; };
+		63F20D361C182B58003F85D2 /* UIImage+kk_QRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D301C182B58003F85D2 /* UIImage+kk_QRCodeImage.m */; };
+		63F20D371C182B58003F85D2 /* NSString+kk_QRCodeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D331C182B58003F85D2 /* NSString+kk_QRCodeString.m */; };
+		63F20D401C182B68003F85D2 /* KKQRCodeGenerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D391C182B68003F85D2 /* KKQRCodeGenerateViewController.m */; };
+		63F20D411C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D3B1C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.m */; };
+		63F20D421C182B68003F85D2 /* KKScanGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D3D1C182B68003F85D2 /* KKScanGeneralViewController.m */; };
+		63F20D431C182B68003F85D2 /* KKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F20D3F1C182B68003F85D2 /* KKTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +46,6 @@
 		6376CE901C1142E600395032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6376CE921C1142E600395032 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6376CE931C1142E600395032 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6376CE951C1142E600395032 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6376CE961C1142E600395032 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6376CE991C1142E600395032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6376CE9B1C1142E600395032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6376CE9E1C1142E600395032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,22 @@
 		6376CEB01C1142E600395032 /* QRCodeScanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeScanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6376CEB41C1142E600395032 /* QRCodeScanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanDemoUITests.m; sourceTree = "<group>"; };
 		6376CEB61C1142E600395032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63F20D2A1C182B58003F85D2 /* KKBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBackgroundView.h; sourceTree = "<group>"; };
+		63F20D2B1C182B58003F85D2 /* KKBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBackgroundView.m; sourceTree = "<group>"; };
+		63F20D2C1C182B58003F85D2 /* KKQRCodeCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKQRCodeCaptureView.h; sourceTree = "<group>"; };
+		63F20D2D1C182B58003F85D2 /* KKQRCodeCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKQRCodeCaptureView.m; sourceTree = "<group>"; };
+		63F20D2F1C182B58003F85D2 /* UIImage+kk_QRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+kk_QRCodeImage.h"; sourceTree = "<group>"; };
+		63F20D301C182B58003F85D2 /* UIImage+kk_QRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+kk_QRCodeImage.m"; sourceTree = "<group>"; };
+		63F20D321C182B58003F85D2 /* NSString+kk_QRCodeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+kk_QRCodeString.h"; sourceTree = "<group>"; };
+		63F20D331C182B58003F85D2 /* NSString+kk_QRCodeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+kk_QRCodeString.m"; sourceTree = "<group>"; };
+		63F20D381C182B68003F85D2 /* KKQRCodeGenerateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKQRCodeGenerateViewController.h; path = KKQRCodeDemo/KKQRCodeGenerateViewController.h; sourceTree = "<group>"; };
+		63F20D391C182B68003F85D2 /* KKQRCodeGenerateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKQRCodeGenerateViewController.m; path = KKQRCodeDemo/KKQRCodeGenerateViewController.m; sourceTree = "<group>"; };
+		63F20D3A1C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKQRCodePhotoLibraryViewController.h; path = KKQRCodeDemo/KKQRCodePhotoLibraryViewController.h; sourceTree = "<group>"; };
+		63F20D3B1C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKQRCodePhotoLibraryViewController.m; path = KKQRCodeDemo/KKQRCodePhotoLibraryViewController.m; sourceTree = "<group>"; };
+		63F20D3C1C182B68003F85D2 /* KKScanGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKScanGeneralViewController.h; path = KKQRCodeDemo/KKScanGeneralViewController.h; sourceTree = "<group>"; };
+		63F20D3D1C182B68003F85D2 /* KKScanGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKScanGeneralViewController.m; path = KKQRCodeDemo/KKScanGeneralViewController.m; sourceTree = "<group>"; };
+		63F20D3E1C182B68003F85D2 /* KKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKTabBarController.h; path = KKQRCodeDemo/KKTabBarController.h; sourceTree = "<group>"; };
+		63F20D3F1C182B68003F85D2 /* KKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKTabBarController.m; path = KKQRCodeDemo/KKTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,17 @@
 		6376CE8E1C1142E600395032 /* QRCodeScanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				63DDFE0F1C117BC4007B5195 /* KKQRCode */,
+				63F20D381C182B68003F85D2 /* KKQRCodeGenerateViewController.h */,
+				63F20D391C182B68003F85D2 /* KKQRCodeGenerateViewController.m */,
+				63F20D3A1C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.h */,
+				63F20D3B1C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.m */,
+				63F20D3C1C182B68003F85D2 /* KKScanGeneralViewController.h */,
+				63F20D3D1C182B68003F85D2 /* KKScanGeneralViewController.m */,
+				63F20D3E1C182B68003F85D2 /* KKTabBarController.h */,
+				63F20D3F1C182B68003F85D2 /* KKTabBarController.m */,
 				6376CE921C1142E600395032 /* AppDelegate.h */,
 				6376CE931C1142E600395032 /* AppDelegate.m */,
-				6376CE951C1142E600395032 /* ViewController.h */,
-				6376CE961C1142E600395032 /* ViewController.m */,
 				6376CE981C1142E600395032 /* Main.storyboard */,
 				6376CE9B1C1142E600395032 /* Assets.xcassets */,
 				6376CE9D1C1142E600395032 /* LaunchScreen.storyboard */,
@@ -138,6 +166,48 @@
 				6376CEB61C1142E600395032 /* Info.plist */,
 			);
 			path = QRCodeScanDemoUITests;
+			sourceTree = "<group>";
+		};
+		63DDFE0F1C117BC4007B5195 /* KKQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				63F20D291C182B58003F85D2 /* QRCodeCapture */,
+				63F20D2E1C182B58003F85D2 /* QRCodeGenerate */,
+				63F20D311C182B58003F85D2 /* QRCodePhotoLibrary */,
+			);
+			name = KKQRCode;
+			sourceTree = "<group>";
+		};
+		63F20D291C182B58003F85D2 /* QRCodeCapture */ = {
+			isa = PBXGroup;
+			children = (
+				63F20D2A1C182B58003F85D2 /* KKBackgroundView.h */,
+				63F20D2B1C182B58003F85D2 /* KKBackgroundView.m */,
+				63F20D2C1C182B58003F85D2 /* KKQRCodeCaptureView.h */,
+				63F20D2D1C182B58003F85D2 /* KKQRCodeCaptureView.m */,
+			);
+			name = QRCodeCapture;
+			path = KKQRCode/QRCodeCapture;
+			sourceTree = "<group>";
+		};
+		63F20D2E1C182B58003F85D2 /* QRCodeGenerate */ = {
+			isa = PBXGroup;
+			children = (
+				63F20D2F1C182B58003F85D2 /* UIImage+kk_QRCodeImage.h */,
+				63F20D301C182B58003F85D2 /* UIImage+kk_QRCodeImage.m */,
+			);
+			name = QRCodeGenerate;
+			path = KKQRCode/QRCodeGenerate;
+			sourceTree = "<group>";
+		};
+		63F20D311C182B58003F85D2 /* QRCodePhotoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				63F20D321C182B58003F85D2 /* NSString+kk_QRCodeString.h */,
+				63F20D331C182B58003F85D2 /* NSString+kk_QRCodeString.m */,
+			);
+			name = QRCodePhotoLibrary;
+			path = KKQRCode/QRCodePhotoLibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +272,7 @@
 		6376CE841C1142E600395032 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KK;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = ZYB;
 				TargetAttributes = {
@@ -273,9 +344,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6376CE971C1142E600395032 /* ViewController.m in Sources */,
+				63F20D341C182B58003F85D2 /* KKBackgroundView.m in Sources */,
+				63F20D411C182B68003F85D2 /* KKQRCodePhotoLibraryViewController.m in Sources */,
+				63F20D401C182B68003F85D2 /* KKQRCodeGenerateViewController.m in Sources */,
+				63F20D421C182B68003F85D2 /* KKScanGeneralViewController.m in Sources */,
 				6376CE941C1142E600395032 /* AppDelegate.m in Sources */,
+				63F20D371C182B58003F85D2 /* NSString+kk_QRCodeString.m in Sources */,
+				63F20D361C182B58003F85D2 /* UIImage+kk_QRCodeImage.m in Sources */,
+				63F20D431C182B68003F85D2 /* KKTabBarController.m in Sources */,
 				6376CE911C1142E600395032 /* main.m in Sources */,
+				63F20D351C182B58003F85D2 /* KKQRCodeCaptureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +579,7 @@
 				6376CEBB1C1142E600395032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6376CEBC1C1142E600395032 /* Build configuration list for PBXNativeTarget "QRCodeScanDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +588,7 @@
 				6376CEBE1C1142E600395032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6376CEBF1C1142E600395032 /* Build configuration list for PBXNativeTarget "QRCodeScanDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +597,7 @@
 				6376CEC11C1142E600395032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  KKTabBarController.h
 //  QRCodeScanDemo
 //
 //  Created by 张琰博 on 15/12/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface KKTabBarController : UITabBarController
 
 @end
-
