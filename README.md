@@ -2,7 +2,7 @@
 
 ####/QRCodeScanDemo/KKQRCodeDemo/ is the demo site
 
-####there are three mode
+####there are three modes
 
 - read QRCode with camera, use QRCodeCapture in /KKQRCode/QRCodeCapture
  - method `+ (instancetype)captureViewWithRectOfInterest:(CGRect)rect` and `+ (instancetype)captureViewWithRectOfInterest:(CGRect)rect
